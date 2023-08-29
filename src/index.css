@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 22px;
+}
+body{
+  min-height: 100vh;
+  font-family: 'Roboto',sans-serif;
+  
+  -moz-osx-font-smoothing: grayscale;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: grid;
+  place-content: center;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px black;
+}
+
+.square p{
+  text-align: center;
+}
+
+form{
+  width: 200px;
+}
+
+label{
+  position: absolute;
+  left: -99999px;
+}
+
+input[type="text"]{
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+  width: 100%;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px black;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+button{
+  height: 48px;
+  width: 100%;
+  border-radius: 0.25 rem;
+  box-shadow: 2px 2px 5px black;
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
